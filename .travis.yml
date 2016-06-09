@@ -1,9 +1,10 @@
-language: node_js
-node_js:
-  - "6"
+sudo: required
+
+services:
+  - docker
 
 before_script:
-  - npm install
+  - docker build -t calculator .
 
 script:
-  - npm test
+  - docker run calculator
