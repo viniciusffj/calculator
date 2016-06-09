@@ -1,0 +1,23 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "Calculator in JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viniciusffj/calculator.git"
+  },
+  "keywords": [
+    "javascript",
+    "docker"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viniciusffj/calculator/issues"
+  },
+  "homepage": "https://github.com/viniciusffj/calculator#readme"
+}
