@@ -7,5 +7,3 @@ RUN npm install
 COPY src /app/src
 COPY test /app/test
 COPY .babelrc /app/
-
-CMD npm test
