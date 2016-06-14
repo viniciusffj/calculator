@@ -1,10 +1,10 @@
 sudo: required
 
 service:
-	- docker
+ - docker
 
 before_script:
-	- docker build -t calculator .
+ - docker build -t calculator .
 
 script:
-	- docker run calculator npm test
+ - docker run calculator npm test
