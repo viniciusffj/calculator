@@ -1,0 +1,10 @@
+sudo: required
+
+service:
+	- docker
+
+before_script:
+	- docker build -t calculator .
+
+script:
+	- docker run calculator npm test
